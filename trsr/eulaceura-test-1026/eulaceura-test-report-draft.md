@@ -24,6 +24,7 @@ systemd log not printed to ttyS by default.
   - 重启 lightdm 服务或是直接在 pty 启动。
  - kiran-panel 有一定概率没有任何 item. 
  - kiran-calculator 的名称显示异常。
+ - kiran-session-manager 有概率会无法在桌面使用右键，推测是组件启动失败。重启 X 即可。
 5.  `mpv` 爆炸。参见 openEuler/RISCV 已有相关 issue.
 6.  
 
