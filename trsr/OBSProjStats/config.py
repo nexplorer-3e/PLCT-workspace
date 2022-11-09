@@ -1,4 +1,7 @@
 csvName = "data.csv"
+CommitCsv = "commit.csv"
+NoYaml = "noyaml.csv"
+
 projRepoUrl = {
     "standard": "https://build.tarsier-infra.com/project/monitor/openEuler:Mainline",
     #"openEuler_2209_self": "https://build.tarsier-infra.com/project/monitor/openEuler:22.09",  # example
