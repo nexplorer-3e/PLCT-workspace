@@ -2,7 +2,7 @@ call qemu-system-riscv64 ^
 -smp 4 -m 4G ^
 -machine virt -bios fw_boot.bin ^
 -spice disable-ticketing=on,port=16969 ^
--display sdl,gl=on ^
+-nographic ^
 -device virtio-gpu ^
 -device virtio-blk-device,drive=hd0 -drive file=sys_disk.qcow2,id=hd0,format=qcow2 ^
 -device virtio-net-device,netdev=usernet -netdev user,id=usernet,ipv6=off,hostfwd=tcp::2222-:22,hostfwd=tcp::5900-:5900,hostfwd=udp::177-:177 ^
